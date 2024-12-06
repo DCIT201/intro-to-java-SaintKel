@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class TemperatureConverter {
-
+    static void goodBye(){
+        System.out.println("Thank you for using Kelvin's Temperature Converter")
+    }
     public static void main(String[] args) {
         // This creates a scanner object to read user input
         Scanner scanner = new Scanner(System.in);
