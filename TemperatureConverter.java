@@ -57,14 +57,14 @@ public class TemperatureConverter {
             // Convert Celsius to Fahrenheit
             double fahrenheit = (temperature * 9/5) + 32;
             System.out.printf("Okay " + name + " ,your inputed temperature %.2f in Celsius is equal to %.2f Fahrenheit.\n", temperature, fahrenheit);
-            System.out.println("Thank you for using Kelvin's Temperature Converter");
+            TemperateConverter.goodBye();
 
         } else if (choice == 2) {
             
             // Convert Fahrenheit to Celsius
             double celsius = (temperature - 32) * 5/9;
             System.out.printf("Okay " + name + " ,your inputed temperature %.2f in Fahrenheit is equal to %.2f Celsius.\n", temperature, celsius);
-            System.out.println("Thank you for using Kelvin's Temperature Converter.");
+             TemperateConverter.goodBye();
         }
 
         // This closes the scanner object
