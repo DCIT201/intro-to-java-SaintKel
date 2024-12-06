@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TemperatureConverter {
     static void goodBye(){
-        System.out.println("Thank you for using Kelvin's Temperature Converter")
+        System.out.println("Thank you for using Kelvin's Temperature Converter");
     }
     public static void main(String[] args) {
         // This creates a scanner object to read user input
@@ -57,14 +57,14 @@ public class TemperatureConverter {
             // Convert Celsius to Fahrenheit
             double fahrenheit = (temperature * 9/5) + 32;
             System.out.printf("Okay " + name + " ,your inputed temperature %.2f in Celsius is equal to %.2f Fahrenheit.\n", temperature, fahrenheit);
-            TemperateConverter.goodBye();
+            TemperatureConverter.goodBye();
 
         } else if (choice == 2) {
             
             // Convert Fahrenheit to Celsius
             double celsius = (temperature - 32) * 5/9;
             System.out.printf("Okay " + name + " ,your inputed temperature %.2f in Fahrenheit is equal to %.2f Celsius.\n", temperature, celsius);
-             TemperateConverter.goodBye();
+             TemperatureConverter.goodBye();
         }
 
         // This closes the scanner object
